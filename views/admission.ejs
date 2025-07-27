@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admission</title>
+</head>
+<body>
+    <form action="/admission" method="post">
+        <input type="text" name="name" placeholder="fullname">
+        <input type="text" name="cnic" placeholder="cnic">
+        <input type="text" name="fname" placeholder="fathername">
+        <input type="date" name="birth" placeholder="date of birth">
+        <input type="text" name="address" placeholder="address">
+        <input type="text" name="city" placeholder="city">
+
+
+        <button type="submit">submit</button>
+    </form>
+
+
+   <% if (submitted) { %>
+  <p>Form submitted successfully!</p>
+<% } %>
+</body>
+</html>

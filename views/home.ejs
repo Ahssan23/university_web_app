@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+<!-- Add Alpine.js -->
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
+<nav class="bg-green-900 shadow-md px-6 py-4" x-data="{ open: false }">
+  <div class="max-w-7xl mx-auto flex justify-between items-center">
+    
+    <!-- Logo -->
+    <div class="text-2xl font-bold text-white">UniVerse</div>
+
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex space-x-6">
+      <a href="/" class="text-white hover:text-white font-medium">Home</a>
+      <a href="/about" class="text-white hover:text-white font-medium">About</a>
+      <a href="/contact" class="text-white hover:text-white font-medium">Contact</a>
+      <a href="/contact" class="text-white hover:text-white font-medium">Contact</a>
+      <a href="/admission" class="text-white hover:text-white font-medium">Admission</a>
+      <a href="/contact" class="text-white hover:text-white font-medium">Contact</a>
+
+    </div>
+
+    <!-- Mobile Toggle Button -->
+    <div class="md:hidden">
+      <button class="text-white focus:outline-none" @click="open = !open">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="md:hidden mt-4 space-y-2" x-show="open" x-transition>
+    <a href="/home" class="block text-white font-medium">Home</a>
+    <a href="/about" class="block text-white font-medium">About</a>
+    <a href="/contact" class="block text-white font-medium">Contact</a>
+  </div>
+</nav>
+
+</body>
+</html>

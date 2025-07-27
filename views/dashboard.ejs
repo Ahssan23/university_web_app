@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+
+
+    see you grades
+
+    <form action="/grades" method="post">
+        <input type="text" name="name">
+        <input type="text" name="rollno">
+        <button type="submit">search</button>
+    </form>
+
+
+    <h3><%= result.name %> </h3>
+    <h4>roll number : <%= result.id %> </h4>
+    <h3><%= result.section %> </h3>
+    <h3><%= result.major %> </h3>
+    <h3><%= result.midterm %> </h3>
+        <h3><%= result.final %> </h3>
+
+
+</body>
+</html>

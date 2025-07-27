@@ -1,0 +1,166 @@
+🔹 Basic Pages (EJS)
+
+Home
+
+About
+
+Contact (with working form optional)
+
+Faculties / Departments overview                                              ||   CREATE SEPARATE TABLE FOR GRADES.
+
+News & Events
+
+Careers / Jobs
+
+    FAQs
+
+✅ PHASE 2: Authentication System
+🔹 User Roles
+
+Student
+
+Faculty
+
+    Admin
+
+🔹 Auth Features
+
+Login (per role)
+
+Registration ( students or invite-only for faculty)
+
+Forgot password (optional)
+
+Role-based access (middleware)
+
+    Session/JWT handling
+
+✅ PHASE 3: Student Portal
+🔹 Dashboard
+
+Welcome message
+
+Enrolled courses
+
+Grades / GPA
+
+Fee payment status
+
+Upcoming class schedule
+
+    Notifications
+
+🔹 Actions
+
+Course registration (add/drop)
+
+View/download transcripts
+
+Submit assignments (optional)
+
+    Contact faculty / raise query
+
+✅ PHASE 4: Faculty Portal
+🔹 Dashboard
+
+Assigned courses
+
+List of enrolled students per course
+
+Submit grades
+
+Mark attendance
+
+View timetable
+
+    Upload materials (optional)
+
+✅ PHASE 5: Admin Panel
+🔹 User Management
+
+Add/edit/delete students
+
+Add/edit/delete faculty
+
+    Manage roles & permissions
+
+🔹 Course Management
+
+Add/edit/delete courses
+
+Assign courses to faculty
+
+    Set semesters & schedules
+
+🔹 Department Management
+
+Add/edit departments
+
+    Assign faculty to departments
+
+🔹 Fees & Payments
+
+Set fee structures
+
+Track student payments
+
+    Generate fee invoices
+
+🔹 Content Management
+
+Add/edit news
+
+Add/edit events
+
+Upload academic calendar
+
+    Control homepage banners
+
+✅ PHASE 6: Advanced Features (Optional But Elite)
+🔹 Library System
+
+Search books
+
+Borrow/return
+
+    Track issued books
+
+🔹 Learning System (LMS-lite)
+
+Upload lectures
+
+Submit assignments
+
+    Auto-grade quizzes
+
+🔹 Hostel Management
+
+Room allocation
+
+    Student complaints
+
+🔹 Internal Messaging
+
+Chat between students & faculty
+
+    Admin notices
+
+🔹 Notifications
+
+Email / in-app alerts
+
+    Event reminders
+
+✅ PHASE 7: General Improvements
+
+Responsive design (Tailwind)
+
+SEO optimization (meta tags, etc.)
+
+404 and error handling pages
+
+Audit logging (admin side)
+
+Rate-limiting / security hardening
+
+Deployment (Render, Railway, etc.

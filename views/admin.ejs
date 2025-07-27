@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+</head>
+<body>
+    <a href="/dashboard/admissions" >admissions</a>
+        <a href="/dashboard/attendance" >attendannce</a>
+
+    this is admin page
+
+
+    <form action="/insert_student" method="post">
+        <input type="text" name="name">
+        <input type="password" name="password">
+        <input type="text" name="email">
+        <input type="text" name="section">
+        <input type="text" name="midterm">
+        <input type="text" name="final" >
+        <button type="submit">submit</button>
+        
+        
+    </form>
+    <h1>Update students grades</h1>
+    <form action="/update" method="post">
+        <input type="text" name="roll">
+        <input type="text" name="name">
+        <input type="text" name="major">
+        <input type="text" name="midterm">
+        <input type="text" name="final" >
+        <button type="submit">update</button>
+    </form>
+</body>
+</html>
